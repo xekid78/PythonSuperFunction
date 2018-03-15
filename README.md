@@ -8,8 +8,8 @@ super()関数を使って親クラスの__init__()メソッドを利用する。
 ```
 class Greeting(object):
     def __init__(self):
-        self.msg = "hello"
-        self.target = "paiza"
+        self.msg = "Hello"
+        self.target = "World"
 
     def say_hello(self):
         print(self.msg + " " + self.target)
@@ -28,7 +28,7 @@ hello.wahaha()
 
 ## 出力結果  
 ```
-hello paiza
+Hello World
 WA HA HA HA
 ```
   
