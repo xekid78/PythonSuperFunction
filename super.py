@@ -1,7 +1,7 @@
 class Greeting(object):
     def __init__(self):
-        self.msg = "hello"
-        self.target = "paiza"
+        self.msg = "Hello"
+        self.target = "World"
 
     def say_hello(self):
         print(self.msg + " " + self.target)
